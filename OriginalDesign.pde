@@ -61,7 +61,7 @@ void ufo()
 void head() {
   stroke(1);
   fill(70);
-  arc(150, 150, 80, 80, PI, radians(360), PIE);
+  arc(150, 150, 80, 80, PI, radians(360));
 }
 
 void body() {
@@ -91,8 +91,3 @@ void light()
   ellipse(150, 165, 20, 20);
   ellipse(190, 165, 18, 18);
 }
-
-
-
-
-
